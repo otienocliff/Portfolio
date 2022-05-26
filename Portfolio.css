@@ -1,0 +1,86 @@
+body{
+    background-color:hsla(4, 49%, 76%, 0.212);
+     color:black;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+     font-size: 17px;
+     line-height: 2em;
+ }
+ .pictures{
+     margin: 20px 0px; 
+     width: 80%;
+     height:auto;
+ }
+ #main-header{
+     background-color: coral;
+     color: blue;
+     border: 1px;
+ }
+ #navbar li{
+ 
+     display:inline;
+     font-weight: normal;
+     
+ }
+ #navbar a{
+     font-size: 18px;
+     padding-right: 15px;
+     text-decoration: underline;
+     color: white;
+ }
+ #navbar ul{
+     padding: 0px;
+     list-style: none;
+ }
+ #navbar{
+     background-color: rgb(68, 7, 233);
+     color: #2c2828;
+ }
+ .container{
+     color: black;
+     display: block;
+ }
+ #showcase{
+     color: white;
+     margin-bottom: 20px;
+     min-height: 200px;
+     text-align: center;
+ }
+ #showcase h1{
+     line-height: 1.6em;
+     font-size: 40px;
+     padding-top: 10px;
+ }
+ #Main{
+     float: bottom;
+     width: 50%;
+     padding: 0 50px;
+     box-sizing: border-box;
+ }
+ #side-bar{
+     padding: 0 40px;
+     float: left;
+     width: 60%;
+     box-sizing: content-box;
+     
+ }
+ 
+ #Main-footer{
+     background-color: rgb(181, 211, 122);
+     font-style: normal;
+     color: black;
+     text-align: center;
+     padding: 10px 10px;
+     margin-top: 10px;
+     padding: bottom 200px;;
+     font-family:'Times New Roman', Times, serif arial: 
+ }
+ @media(max-width: 600px){
+     #main{
+         width: 100%;
+         float: none;
+     }
+     #Main-footer{
+         width: 50%;
+         float: none;
+     }
+ }

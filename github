@@ -1,0 +1,13 @@
+git --version
+C:\Users\Rio>:~$ mkdir myproject
+C:\Users\Rio>:~$ cd myproject
+C:\Users\Rio>:~/myproject$ git init
+C:\Users\Rio>:~/myproject$ touch readme.txt
+C:\Users\Rio>:~/myproject$ git add .
+C:\Users\Rio>:~/myproject$ git commit -m "added readme"
+C:\Users\Rio>:~/myproject$ git remote add origin https://github.com/otienocliff/Portfolio.git
+C:\Users\Rio>:~/myproject$ git push -u original master
+C:\Users\Rio>:~/myproject$ touch LICENSE
+C:\Users\Rio>:~/myproject$ get add .
+C:\Users\Rio>:~/myproject$ get commit -m "added license file"
+C:\Users\Rio>:~/myproject$ git push -u original master
